@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50876959-fbfe-41f7-8859-fedfe1ad3dd1" name="Changes" comment="1" />
+    <list default="true" id="9c800264-4114-4d24-b0d5-9434f6e1a216" name="Changes" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,22 +24,22 @@
     &quot;assignee&quot;: &quot;dijinx&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dijinx/qa_java.git",
-    "accountId": "c6b0bed3-3853-4850-9d6a-7a849cd2468c"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dijinx/qa_java.git&quot;,
+    &quot;accountId&quot;: &quot;c6b0bed3-3853-4850-9d6a-7a849cd2468c&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "dijinx",
-    "repository": "qa_java"
+    &quot;owner&quot;: &quot;dijinx&quot;,
+    &quot;repository&quot;: &quot;qa_java&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -53,7 +53,6 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#5 on main",
     "ignore.virus.scanning.warn.message": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
