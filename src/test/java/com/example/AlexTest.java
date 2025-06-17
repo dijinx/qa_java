@@ -16,32 +16,32 @@ class AlexTest {
 
     @Test
     void getKittensReturnsZero() throws Exception {
-        Alex alex = new Alex(feline);
+        AlexLion alex = new AlexLion(feline);
         assertEquals(0, alex.getKittens());
     }
 
     @Test
     void getFriendsReturnsCorrectList() throws Exception {
-        Alex alex = new Alex(feline);
+        AlexLion alex = new AlexLion(feline);
         List<String> expectedFriends = List.of("Марти", "Глория", "Мелман");
         assertEquals(expectedFriends, alex.getFriends());
     }
 
     @Test
     void getPlaceOfLivingReturnsCorrectPlace() throws Exception {
-        Alex alex = new Alex(feline);
+        AlexLion alex = new AlexLion(feline);
         assertEquals("Нью-Йоркский зоопарк", alex.getPlaceOfLiving());
     }
 
     @Test
     void hasManeIsTrue() throws Exception {
-        Alex alex = new Alex(feline);
+        AlexLion alex = new AlexLion(feline);
         assertTrue(alex.doesHaveMane());
     }
 
     @Test
     void getFoodReturnsCorrectFoodList() throws Exception {
-        Alex alex = new Alex(feline);
+        AlexLion alex = new AlexLion(feline);
         List<String> expectedFood = List.of("Животные", "Птицы", "Рыба");
         when(feline.eatMeat()).thenReturn(expectedFood);
         assertEquals(expectedFood, alex.getFood());

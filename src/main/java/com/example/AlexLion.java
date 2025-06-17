@@ -2,8 +2,8 @@ package com.example;
 
 import java.util.List;
 
-public class Alex extends Lion {
-    public Alex(Feline feline) throws Exception {
+public class AlexLion extends Lion {
+    public AlexLion(Feline feline) throws Exception {
         super("Самец", feline);
     }
 
